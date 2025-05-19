@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+   align-content: center;
+}
+
+/*ESTO ES PARA QUITARLE EL SUBRAYADO CUANDO ES LINK*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #2ECC71;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: chartreuse;
+}
+
+.formato_de{
+    text-align: center;
+}
+
+.FER{
+    color: #E74C3C;
+}

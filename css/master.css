@@ -1,0 +1,118 @@
+/*Body modifica todo el cuerpo de la página de login*/
+body{
+	/*margen*/
+	margin = 0;
+	padding = 0;
+	/*con el .. subimos un nivel y entramos en la carpeta img, despues la imagen que 
+	queremos insertar de fondo. no repeat para que la imagen no se repita varias veces.
+	center top centra la imagen y la pone arriba*/
+	background: url(../images/fondoitszfer.jpg); 
+	no-repeat center top;
+	/*tamaño de la imagen cover cubre toda la pantalla*/
+	background-size: cover;
+	/*fuente del texto*/
+	font-family: sans-serif;
+	/*alto de la imagen 97 del alto del dispositivo*/
+	height: 97vh;
+
+}
+
+/*caja-login es el contenedor contiene el logo, titulo, textos*/
+.caja-login{
+	/*ancho*/
+	width: 320px;
+	/*alto*/
+	height: 420px;
+	/*color de fondo de el contenedor, en este caso verde*/
+	background: #00ca63;
+	/*color del texto del contenedor*/
+	color: #fff;
+	/*posicionamiento en el centro de la pantalla*/
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	/*espacio interno del texto de usuario y contraseña 70pixeles a lo largo
+	y 30pix a los lados*/
+	padding: 70px 30px;
+
+}
+/*Modificacion de la imagen logo*/
+.caja-login .avatar {
+	/*width y heigth modifican el tamaño de la imagen*/
+	width: 110px;
+	height: 110px;
+	/*hace que la imagen sea redonda*/
+	border-radius: 50%;
+	/*centra la imagen*/
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+} 	
+.caja-login h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.caja-login label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.caja-login input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.caja-login input[type="text"],
+.caja-login input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: #000;
+	font-size:16px;
+
+}
+
+.caja-login input[type="submit"]{
+border: none;
+outline: none;
+height:40px;
+background: #ff8000;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.caja-login a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+
+}
+
+.caja-login a:hover{
+	color: #ff8000;
+}
+
+
+.bad{
+	color: #ff8000;
+}
+
+.bad{
+	text-align: center;
+}
+
+
+.col{
+	text-align: center;
+}
+
